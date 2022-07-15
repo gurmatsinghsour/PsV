@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Registration form</title>
+</head>
+<body>
+    
+    <section id="navbar">
+        <nav id="center">
+            <h1 class="maintext">
+                Registration form
+            </h1>
+            <ul class="navbar-links">
+                <li><a href="/Exp2/index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </section>
+
+
+    <section id="Registrationform">
+
+        <div class="background">
+            <form>
+                <h1>
+                    Registration form
+                </h1>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="your name">
+                <small class="error"></small>
+
+                <label for="email">Email: </label>
+                <input type="text" id="email" placeholder="your email">
+                <small class="error"></small>
+
+                <label for="number">Number: </label>
+                <input type="text" id="number" placeholder="your number">
+                <small class="error"></small>
+                
+                <div class="gender"> 
+                    <label for="gender">Gender: </label>
+                    
+                    <div class="inputlabel">
+                    Male: <input type="radio" name="gender" value="male">
+                    Female: <input type="radio" name="gender" value="female">
+                    Other: <input type="radio" name="gender" value="LGBTQ">
+                    </div>
+                    
+                    
+                </div>
+
+                <div class="country">
+                    <label for="countrys">Country: </label>
+                    <div class="countrytag">
+                        <select name="countrys" id="countrys" class="countrys">
+                            <option value="India">India</option>
+                            <option value="Australia">Australia</option>
+                            <option value="NA">NA</option>
+                            <option value="SA">SA</option>
+        
+                        </select>
+                    </div>
+  
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="SUBMIT">
+                </div>
+
+            </form>
+        </div>
+        
+    </section>
+</body>
+
+
+</html>
